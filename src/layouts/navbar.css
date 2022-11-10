@@ -1,0 +1,10 @@
+.navbar-container{
+    top: 0;
+    border: 1px solid #000000;
+}
+
+input{
+    margin-top: 20px;
+    width: 80%;
+    border-radius:10px;
+}
