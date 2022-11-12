@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './layouts/Footer';
-import Navbar from './layouts/Navbar'
+import { Auth0Provider } from "@auth0/auth0-react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Navbar/>
-    <Footer />
+    <Auth0Provider
+      domain="dev-wlsqw4lmid4d5qlb.us.auth0.com"
+      clientId="9Vkvc6sawIcp3aRxY14KkXMbyVlaF32u"
+      redirectUri={window.location.origin}
+    >
+      <App />
+    </Auth0Provider>
   </React.StrictMode>
 );
 
