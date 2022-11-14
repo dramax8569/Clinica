@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './layouts/Footer';
-import Navbar from './layouts/Navbar'
+import Screen5 from './pages/Screen5';
+import Screen6 from './pages/Screen6';
+import Screen7 from './pages/Screen7';
+import Screen8 from './pages/Screen8';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Navbar/>
-    <Footer />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Screen5/>} />
+        <Route path="/historial-paciente" element={<Screen6/>} />
+        <Route path="/agendar-cita" element={<Screen7/>} />
+        <Route path="/pqr" element={<Screen8/>} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

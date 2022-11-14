@@ -1,5 +1,9 @@
 import React from 'react'
 import './navbar.css';
+import logo from '../img/logo.png'
+import textlogo from '../img/imperial.png'
+import {Link} from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
@@ -7,14 +11,17 @@ const Navbar = () => {
         <div className='navbar-container'>
             <div className='row'>
                 <div className='col-lg-3 text-center'>
-                    logo
+                <Link to="/" >
+                    <img src={logo} height={"50px"} style={{marginTop:"-20px"}}/>
+                    <img src={textlogo} height={"70px"} style={{marginTop:"2px"}}/>
+                </Link>
                 </div>
                 <div className='col-lg-6 text-center'>
                     <input type="text" name="search" placeholder='¿Buscas algo?' />
-                    <i class="bi bi-search" style={{fontSize:"20px",marginLeft:"-30px"}}></i>
+                    <i className="bi bi-search" style={{fontSize:"20px",marginLeft:"-30px"}}></i>
                 </div>
                 <div className='col-lg-3 text-center'>
-                    <i class="bi bi-person" style={{fontSize:"50px"}}></i>
+                    <i className="bi bi-person" style={{fontSize:"50px"}}></i>
                 </div>
             </div>            
         </div>
@@ -31,3 +38,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
