@@ -1,7 +1,12 @@
 import React from 'react'
 import './navbar.css';
+import { Profile } from "../login/Profile";
+import { useAuth0 } from "@auth0/auth0-react";
+import { LoginButton } from "../login/login";
+import { LogoutButton } from "../login/logout";
 
 export const Navbar = () => {
+    const { isAuthenticated } = useAuth0();
   return (
     <>
         <div className='navbar-container'>
@@ -10,11 +15,19 @@ export const Navbar = () => {
                     logo
                 </div>
                 <div className='col-lg-6 text-center'>
-                    <input type="text" name="search" placeholder='¿Buscas algo?' />
+                    <input type="text" name="search" placeholder='  ¿Buscas algo?' />
                     <i class="bi bi-search" style={{fontSize:"20px",marginLeft:"-30px"}}></i>
                 </div>
                 <div className='col-lg-3 text-center'>
-                    <i class="bi bi-person" style={{fontSize:"50px"}}></i>
+                    <i style={{fontSize:"50px"}}>
+                    {isAuthenticated ? (
+                    <>
+                        <LogoutButton />
+                    </>
+                    ) : (
+                    <LoginButton />
+                    )}
+                    </i>
                 </div>
             </div>            
         </div>
