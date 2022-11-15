@@ -1,7 +1,7 @@
 #### Grupo de trabajo
 - **Carina Suarez Cruz**
 - **Steven Beltran Martinez**
-- **Jesus Bernardo Mendoza**
+- **Jesus Bernardo Mendoza Romero**
 - **Christian Velandia Caballero**
 
 # Clinica Imperial
