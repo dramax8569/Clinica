@@ -22,7 +22,13 @@ root.render(
         <Route path="/pqr" element={<Screen8/>} />
       </Routes>
     </Router>
-
+    <Auth0Provider
+      domain="dev-wlsqw4lmid4d5qlb.us.auth0.com"
+      clientId="9Vkvc6sawIcp3aRxY14KkXMbyVlaF32u"
+      redirectUri={window.location.origin}
+      >
+        <App />
+    </Auth0Provider>
     
   </React.StrictMode>
   
