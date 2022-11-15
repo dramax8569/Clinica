@@ -39,7 +39,7 @@ const Screen5 = () => {
                         </Link>
                     </div>
                     <div className="col-lg-3 text-center">
-                        <Link to="/pqr" style={{textDecoration:"none",color:"black"}}>
+                        <Link to="/" style={{textDecoration:"none",color:"black"}}>
                             <img src={cruz} className="menu-img"/>
                             <br />
                             Atención al Usuario
