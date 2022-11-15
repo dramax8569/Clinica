@@ -6,10 +6,10 @@
 
 # Clinica Imperial
 ## Login
-![](https://i.ibb.co/Jswg9Z3/Log-in-Clinica-Imperial.png)
+[![Log-in-Clinica-Imperial.png](https://i.postimg.cc/kGwbq4nk/Log-in-Clinica-Imperial.png)](https://postimg.cc/FkdRxhkZ)
 
 ## Registrarse
 ![](https://i.ibb.co/JHzMXTV/Registrarse.png)
 
 ## Olvido contraseña
-[![Olvido Contraseña](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png "Olvido Contraseña")](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png "Olvido Contraseña")
+[![Olvido-contrase-a.png](https://i.postimg.cc/13VfYMqx/Olvido-contrase-a.png)](https://postimg.cc/21mk1QGT)
