@@ -1,6 +1,7 @@
 .navbar-container{
     top: 0;
     border: 1px solid #000000;
+    background-color: white;
 }
 
 input{
