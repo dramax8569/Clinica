@@ -4,12 +4,12 @@
 - **Jesus Bernardo Mendoza**
 - **Christian Velandia Caballero**
 
-
-# Login
+# Clinica Imperial
+## Login
 ![](https://i.ibb.co/Jswg9Z3/Log-in-Clinica-Imperial.png)
 
-# Registrarse
+## Registrarse
 ![](https://i.ibb.co/JHzMXTV/Registrarse.png)
 
-# Olvido contraseña
+## Olvido contraseña
 ![](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png)
