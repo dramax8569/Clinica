@@ -12,4 +12,4 @@
 ![](https://i.ibb.co/JHzMXTV/Registrarse.png)
 
 ## Olvido contraseña
-![](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png)
+[![Olvido Contraseña](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png "Olvido Contraseña")](https://i.ibb.co/GkxRbf7/Olvido-contrase-a.png "Olvido Contraseña")
