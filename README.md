@@ -1,5 +1,5 @@
 #### Grupo de trabajo
-- **Carina Suarez Cruz**
+- **Ingrid Carina Suarez Cruz**
 - **Steven Beltran Martinez**
 - **Jesus Bernardo Mendoza Romero**
 - **Christian Velandia Caballero**
