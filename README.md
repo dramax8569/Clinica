@@ -4,7 +4,7 @@
 - **Jesus Bernardo Mendoza Romero**
 - **Christian Velandia Caballero**
 
-# Clinica Imperial
+# Clinica Imperial - Pantallas Realizadas
 ## Login
 [![Log-in-Clinica-Imperial.png](https://i.postimg.cc/kGwbq4nk/Log-in-Clinica-Imperial.png)](https://postimg.cc/FkdRxhkZ)
 
