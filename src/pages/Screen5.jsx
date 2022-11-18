@@ -1,6 +1,8 @@
 import React from 'react'
-import Footer from '../layouts/Footer';
-import Navbar from '../layouts/Navbar'
+import '../index';
+import { useAuth0 } from "@auth0/auth0-react";
+import { Navbar } from "../layouts/Navbar";
+import { Footer } from "../layouts/Footer";
 import './screen5.css'
 import ambulance from '../img/ambulance.png';
 import telemedicina from '../img/telemedicina.png';
@@ -10,7 +12,10 @@ import enfermera from '../img/enfermera.png'
 import casa from '../img/casa.png'
 import {Link} from 'react-router-dom'
 
+
 const Screen5 = () => {
+const { isAuthenticated } = useAuth0();
+
   return (
     <div>
         <Navbar/>
@@ -78,6 +83,7 @@ const Screen5 = () => {
                     </div>
                 </div>
             </div>
+            <br />
         </div>
         <Footer />
     </div>

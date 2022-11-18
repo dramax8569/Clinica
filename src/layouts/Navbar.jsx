@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import './navbar.css';
-import logo from '../img/logo.png'
-import textlogo from '../img/imperial.png'
-import {Link} from 'react-router-dom'
-
+import logo from '../img/logo.png';
+import textlogo from '../img/imperial.png';
+import {Link} from 'react-router-dom';
+import '../index.js';
 import { Profile } from "../login/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
 import { LoginButton } from "../login/login";

@@ -1,11 +1,15 @@
 import React from 'react'
+import '../index.js';
 import Footer from '../layouts/Footer';
 import Navbar from '../layouts/Navbar'
 import enfermera from '../img/enfermera.png'
 import casa from '../img/casa.png'
 import historia_paciente from '../img/historia_paciente.png'
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 const Screen6 = () => {
+    const { isAuthenticated } = useAuth0();
   return (
     <div>
         <Navbar/>
@@ -72,6 +76,7 @@ const Screen6 = () => {
                 <br />
             </div>
         </div>
+        <br />
         <Footer />
     </div>
   )
