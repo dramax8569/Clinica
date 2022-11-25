@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className="footer-contain">
         <div className="footer-section">
-            <div className="row">
+            <div class="uno" className="row">
                 <div className="col-lg-4">
                     <p>Quienes Somos</p>
                 </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div className="row">
+            <div class="dos" className="row">
                 <div className="col-lg-4">
                     <p>Nuestras Sedes</p>
                 </div>

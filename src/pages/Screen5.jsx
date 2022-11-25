@@ -64,7 +64,7 @@ const { isAuthenticated } = useAuth0();
             </div>
             <br />
             <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}}>
-                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"30%",borderLeftStyle:"none",borderTopStyle:"none"}}>
+                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"100%",borderLeftStyle:"none",borderTopStyle:"none"}}>
                     <h4>EPS CLINICA IMPERIAL</h4>
                 </div>
                 <div className="row">
@@ -82,7 +82,7 @@ const { isAuthenticated } = useAuth0();
                         <img src={casa} alt="" />
                     </div>
                     <div className="col-lg-4">
-                        <p style={{color:"black"}}>
+                        <p style={{color:"black", marginLeft:"20px"}}>
                         es simplemente el texto de relleno de las imprentas y archivos de texto.<br/> Lorem Ipsum ha sido el texto de relleno
                         </p>
                     </div>
