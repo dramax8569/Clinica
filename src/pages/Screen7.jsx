@@ -16,9 +16,9 @@ const Screen7 = () => {
     <div>
         <Navbar/>
         <br />
-        <div className="container">
+        <div className="container" id="pqr">
             <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}}>
-                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"30%",borderLeftStyle:"none",borderTopStyle:"none"}}>
+                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"30%",borderLeftStyle:"none",borderTopStyle:"none"}} id="del">
                     <h4>EPS CLINICA IMPERIAL</h4>
                 </div>
                 <br />
@@ -79,7 +79,7 @@ const Screen7 = () => {
                             <br />
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
-                                <button className='btn btn-primary btn-lg btn-block' style={{background:"#C3F4FF",color:"black",border:"1px solid #C3F4FF",height:"80px",width:"404px",fontSize:"25px"}}>Enviar <i class="bi bi-arrow-right-short"></i></button>
+                                <button className='btn btn-primary btn-lg btn-block' style={{background:"#C3F4FF",color:"black",border:"1px solid #C3F4FF",height:"80px",width:"404px",fontSize:"25px"}} id="btn">Enviar <i class="bi bi-arrow-right-short"></i></button>
                             </div>
                         </div>
                         <br />

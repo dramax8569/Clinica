@@ -2,16 +2,7 @@
     top: 0;
     border: 1px solid #000000;
     background-color: white;
-<<<<<<< HEAD
-    
-}
-.row{
-    display: flex;
-    align-items:center;
-    margin-top: 5px;
-=======
     padding: 10px;
->>>>>>> 8c0a7fbade5c0d8dcb4e9cff06da607f168c9252
 }
 input{
     margin-top: 30px;
@@ -37,3 +28,23 @@ input{
   background: rgb(198,251,255);
 background: radial-gradient(circle, rgba(198,251,255,0.5) 0%, rgba(62,254,255,1) 0%, rgba(0,78,255,1) 68%);
 }
+
+@media only screen and (max-width: 600px) {
+    #del{
+        display: none;
+    }
+    #pqr{
+        padding: 50px;
+    }
+    #pqr>div{
+        border:none !important
+    }
+    #btn{
+        width: 100% !important;
+        border-radius: 50px !important;
+        height: 100% !important;
+    }
+    #imgtexto{
+        height: 250px;
+    }
+  }

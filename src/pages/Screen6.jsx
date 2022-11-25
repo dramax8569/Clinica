@@ -14,13 +14,13 @@ const Screen6 = () => {
     <div>
         <Navbar/>
         <br />
-        <div className="container">
-            <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}}>
-                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"30%",borderLeftStyle:"none",borderTopStyle:"none"}}>
+        <div className="container" id="pqr">
+            <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}} >
+                <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"30%",borderLeftStyle:"none",borderTopStyle:"none"}} id="del">
                     <h4>EPS CLINICA IMPERIAL</h4>
                 </div>
                 <div className="row">
-                    <div className="col-lg-2 offset-lg-1" >
+                    <div className="col-lg-2 offset-lg-1" id="">
                         <img src={enfermera} alt="" />
                     </div>
                     <div className="col-lg-8">
@@ -72,7 +72,7 @@ const Screen6 = () => {
                     </table>
                 </div>
                 <br />
-                <img src={historia_paciente} alt="" style={{width:"100%"}} />
+                <img src={historia_paciente} alt="" style={{width:"100%"}} id="imgtexto" />
                 <br />
             </div>
         </div>

@@ -17,30 +17,14 @@ export const Navbar = () => {
             <div className='row'>
                 <div className='col-lg-3 text-center'>
                 <Link to="/" >
-<<<<<<< HEAD
-                    <img src={logo} height={"70px"} style={{marginTop:"-20px"}}/>
-                    <img src={textlogo} height={"90px"} style={{marginTop:"2px"}}/>
-=======
                     <img src={logo} height={"100px"} style={{marginTop:"-10px"}}/>
                     <img src={textlogo} height={"70px"} style={{marginTop:"2px"}}/>
->>>>>>> 8c0a7fbade5c0d8dcb4e9cff06da607f168c9252
                 </Link>
                 </div>
                 <div className='col-lg-6 text-center'>
                     <input type="text" name="search" placeholder='¿Buscas algo?' />
                     <i class="bi bi-search" style={{fontSize:"18px",marginLeft:"-30px"}}></i>
                 </div>
-<<<<<<< HEAD
-                <div className='col-lg-3 text-center'>
-                    <i style={{fontSize:"30px"}}>
-                    {isAuthenticated ? (
-                    <>
-                        <LogoutButton />
-                    </>
-                    ) : (
-                    <LoginButton />
-                    )}
-=======
                 <div className='col-lg-3 text-center'style={{textAlign:"center",marginTop:"30px"}}>
                     <i>
                         {isAuthenticated ? (
@@ -50,7 +34,6 @@ export const Navbar = () => {
                         ) : (
                         <LoginButton />
                         )}
->>>>>>> 8c0a7fbade5c0d8dcb4e9cff06da607f168c9252
                     </i>
                 </div>
             </div>            

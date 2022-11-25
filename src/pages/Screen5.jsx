@@ -20,7 +20,7 @@ const { isAuthenticated } = useAuth0();
         <Navbar/>
         <br />
         <div className="container">
-            <div className='row'>
+            <div className='row' id="del">
                 <div className='col-lg-12' style={{height:"189px"}}>
                 <div className='textPrincipal'>
                 <h4>Clinicia imperial encanta conocer tu opinion</h4>   
@@ -36,21 +36,21 @@ const { isAuthenticated } = useAuth0();
                 <div className="row justify-content-md-center">
                         <div className="col-lg-3 text-center">
                             <Link to="/historial-paciente" style={{textDecoration:"none",color:"black"}}>
-                                <img src={ambulance} className="menu-img"/>
+                                <img src={bdclinica} className="menu-img"/>
                                 <br />
                                 Historial
                             </Link>
                         </div>
                     <div className="col-lg-3 text-center">
                         <Link to="/agendar-cita" style={{textDecoration:"none",color:"black"}}>
-                            <img src={bdclinica} className="menu-img"/>
+                            <img src={cruz} className="menu-img"/>
                             <br />
                             Solicitar Cita
                         </Link>
                     </div>
                     <div className="col-lg-3 text-center">
                         <Link to="/" style={{textDecoration:"none",color:"black"}}>
-                            <img src={cruz} className="menu-img"/>
+                            <img src={ambulance} className="menu-img"/>
                             <br />
                             Atención al Usuario
                         </Link>
@@ -63,7 +63,7 @@ const { isAuthenticated } = useAuth0();
                 </div>
             </div>
             <br />
-            <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}}>
+            <div className="containter" style={{border:"2px solid black",borderRadius:"10px"}} id="del">
                 <div className='text-center' style={{border:"1px solid black",borderRadius:"10px",width:"100%",borderLeftStyle:"none",borderTopStyle:"none"}}>
                     <h4>EPS CLINICA IMPERIAL</h4>
                 </div>
