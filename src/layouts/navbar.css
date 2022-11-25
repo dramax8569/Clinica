@@ -2,10 +2,34 @@
     top: 0;
     border: 1px solid #000000;
     background-color: white;
+    
 }
-
+.row{
+    display: flex;
+    align-items:center;
+    margin-top: 5px;
+}
 input{
     margin-top: 20px;
     width: 80%;
     border-radius:10px;
+}
+
+.bi-person{
+    height: auto;
+    width: auto;
+    
+}
+.bi{
+    background-color: rgb(253, 253, 253); 
+    border-radius:12px ;
+    transition-duration: .3s;
+}
+
+.bi:hover{
+
+    transition-duration: .3s;
+  border-radius: 6px;
+  background: rgb(198,251,255);
+background: radial-gradient(circle, rgba(198,251,255,0.5) 0%, rgba(62,254,255,1) 0%, rgba(0,78,255,1) 68%);
 }

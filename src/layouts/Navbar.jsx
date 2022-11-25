@@ -17,16 +17,16 @@ export const Navbar = () => {
             <div className='row'>
                 <div className='col-lg-3 text-center'>
                 <Link to="/" >
-                    <img src={logo} height={"50px"} style={{marginTop:"-20px"}}/>
-                    <img src={textlogo} height={"70px"} style={{marginTop:"2px"}}/>
+                    <img src={logo} height={"70px"} style={{marginTop:"-20px"}}/>
+                    <img src={textlogo} height={"90px"} style={{marginTop:"2px"}}/>
                 </Link>
                 </div>
                 <div className='col-lg-6 text-center'>
-                    <input type="text" name="search" placeholder='  ¿Buscas algo?' />
-                    <i class="bi bi-search" style={{fontSize:"20px",marginLeft:"-30px"}}></i>
+                    <input type="text" name="search" placeholder='¿Buscas algo?' />
+                    <i class="bi bi-search" style={{fontSize:"18px",marginLeft:"-30px"}}></i>
                 </div>
                 <div className='col-lg-3 text-center'>
-                    <i style={{fontSize:"50px"}}>
+                    <i style={{fontSize:"30px"}}>
                     {isAuthenticated ? (
                     <>
                         <LogoutButton />

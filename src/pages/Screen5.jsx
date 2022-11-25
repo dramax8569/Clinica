@@ -12,7 +12,6 @@ import enfermera from '../img/enfermera.png'
 import casa from '../img/casa.png'
 import {Link} from 'react-router-dom'
 
-
 const Screen5 = () => {
 const { isAuthenticated } = useAuth0();
 
@@ -23,8 +22,14 @@ const { isAuthenticated } = useAuth0();
         <div className="container">
             <div className='row'>
                 <div className='col-lg-12' style={{height:"189px"}}>
-                    <h4>Clinicia imperial<br />Nos encanta conocer tu <br />opinion</h4>
-                    <p style={{color:"black",fontWeight:"none"}}>Es simplemente el texto de relleno de las imprentas <br />y archivos de texto. Lorem Ipsum ha sido el texto de relleno</p>
+                <div className='textPrincipal'>
+                <h4>Clinicia imperial encanta conocer tu opinion</h4>   
+                </div>
+                <div className='row descripcion'>
+                <p style={{color:"black",fontWeight:"100"}}>Somos una clinica especialista y de banguardia en la ciudad,<br/>aseguramos y protegemos la salud de todos </p>
+                <p style={{color:"black",fontWeight:"100"}}>Encuentra toda la informacion y los servicios de salud,<br/>que necesitas a un solo click</p>
+                </div>
+                   
                 </div>
             </div>
             <div className="container">

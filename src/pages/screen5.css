@@ -4,3 +4,18 @@
     height: 150px;
     border-radius: 10px;
 }
+
+.textPrincipal{
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.descripcion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+}
+
+
+
